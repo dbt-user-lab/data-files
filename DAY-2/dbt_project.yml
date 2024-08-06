@@ -11,8 +11,4 @@ models:
     transforms:
       +materialized: table
       +schema: TRANSFORM
-    consumptions:
-      +materialized: view
-      +schema: CONSUMPTION
-
 
