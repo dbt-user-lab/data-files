@@ -1,0 +1,11 @@
+select
+   order_id as order_id,
+   product_id as product_id,
+   customer_id as customer_id,
+   order_date as order_date,
+   order_amount as order_amount,
+   -- 'NA' as order_amount_in_inr,
+   created_date as created_date,
+   quantity as quantity,
+   lastmodified_date  
+from {{ ref('raw_sales') }}

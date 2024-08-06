@@ -1,0 +1,18 @@
+version: 2
+
+seeds:
+  - name: dates
+    config:
+      schema: LANDING
+  
+  - name: products
+    config:
+      schema: LANDING
+
+  - name: sales
+    config:
+      schema: LANDING
+  
+  - name: customers
+    config:
+      schema: LANDING

@@ -1,0 +1,18 @@
+sources:
+  - name: src_landing
+    schema: landing
+
+    tables:
+      - name: src_customers
+        identifier: customers
+        
+      - name: src_products
+        identifier: products
+        
+      - name: src_sales
+        identifier: sales
+
+      - name: src_dates
+        identifier: dates
+  
+  
