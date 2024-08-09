@@ -19,6 +19,8 @@ vars:
   emea: 'EMEA'
   latam: 'LATAM'
   
--------------------
-
+-------
 {{ get_region('country') }} as region  
+
+--------------run-time command--------------------
+dbt run --select stg_customer_var --vars '{"key": "value", "emea": "EMEA"}'
